@@ -5,3 +5,10 @@
 
 ## Docker
 > wget -qO- get.docker.com | bash
+> sudo systemctl enable docker
+
+### Docker uninstall
+> sudo apt-get purge docker-ce docker-ce-cli containerd.io
+> sudo apt-get remove docker docker-engine
+> sudo rm -rf /var/lib/docker
+> sudo rm -rf /var/lib/containerd
