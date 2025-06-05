@@ -62,3 +62,9 @@ sudo systemctl restart fail2ban
 sudo systemctl status fail2ban
 fail2ban-client status
 ```
+
+
+## Ente
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/iscodeminister/linuxvps/main/enteinstall.sh)"
+```
